@@ -1,0 +1,632 @@
+{
+  "projectId": "18d81f68-ff0b-4a4b-8d22-dd06c63daded",
+  "shape": "package",
+  "pkg": "@repo/shadcn",
+  "globalName": "UILayouts",
+  "readmeHeader": ".design-sync/conventions.md",
+  "tsconfig": "../../.design-sync/tsconfig.paths.json",
+  "cssEntry": "./.ds-compiled-tailwind.css",
+  "componentSrcMap": {
+    "Accordion": "./src/base/accordion.tsx",
+    "AccordionItem": "./src/base/accordion.tsx",
+    "AccordionTrigger": "./src/base/accordion.tsx",
+    "AccordionHeader": "./src/base/accordion.tsx",
+    "AccordionContent": "./src/base/accordion.tsx",
+    "AccordionPanel": "./src/base/accordion.tsx",
+    "AlertDialog": "./src/base/alert-dialog.tsx",
+    "AlertDialogAction": "./src/base/alert-dialog.tsx",
+    "AlertDialogCancel": "./src/base/alert-dialog.tsx",
+    "AlertDialogContent": "./src/base/alert-dialog.tsx",
+    "AlertDialogDescription": "./src/base/alert-dialog.tsx",
+    "AlertDialogFooter": "./src/base/alert-dialog.tsx",
+    "AlertDialogHeader": "./src/base/alert-dialog.tsx",
+    "AlertDialogMedia": "./src/base/alert-dialog.tsx",
+    "AlertDialogOverlay": "./src/base/alert-dialog.tsx",
+    "AlertDialogPortal": "./src/base/alert-dialog.tsx",
+    "AlertDialogTitle": "./src/base/alert-dialog.tsx",
+    "AlertDialogTrigger": "./src/base/alert-dialog.tsx",
+    "Avatar": "./src/base/avatar.tsx",
+    "AvatarImage": "./src/base/avatar.tsx",
+    "AvatarFallback": "./src/base/avatar.tsx",
+    "AvatarGroup": "./src/base/avatar.tsx",
+    "AvatarGroupCount": "./src/base/avatar.tsx",
+    "AvatarBadge": "./src/base/avatar.tsx",
+    "Badge": "./src/base/badge.tsx",
+    "Breadcrumb": "./src/base/breadcrumb.tsx",
+    "BreadcrumbList": "./src/base/breadcrumb.tsx",
+    "BreadcrumbItem": "./src/base/breadcrumb.tsx",
+    "BreadcrumbLink": "./src/base/breadcrumb.tsx",
+    "BreadcrumbPage": "./src/base/breadcrumb.tsx",
+    "BreadcrumbSeparator": "./src/base/breadcrumb.tsx",
+    "BreadcrumbEllipsis": "./src/base/breadcrumb.tsx",
+    "ButtonGroup": "./src/base/button-group.tsx",
+    "ButtonGroupSeparator": "./src/base/button-group.tsx",
+    "ButtonGroupText": "./src/base/button-group.tsx",
+    "Button": "./src/base/button.tsx",
+    "Checkbox": "./src/base/checkbox.tsx",
+    "Collapsible": "./src/base/collapsible.tsx",
+    "CollapsibleTrigger": "./src/base/collapsible.tsx",
+    "CollapsibleContent": "./src/base/collapsible.tsx",
+    "Combobox": "./src/base/combobox.tsx",
+    "ComboboxInput": "./src/base/combobox.tsx",
+    "ComboboxContent": "./src/base/combobox.tsx",
+    "ComboboxList": "./src/base/combobox.tsx",
+    "ComboboxItem": "./src/base/combobox.tsx",
+    "ComboboxGroup": "./src/base/combobox.tsx",
+    "ComboboxLabel": "./src/base/combobox.tsx",
+    "ComboboxCollection": "./src/base/combobox.tsx",
+    "ComboboxEmpty": "./src/base/combobox.tsx",
+    "ComboboxSeparator": "./src/base/combobox.tsx",
+    "ComboboxChips": "./src/base/combobox.tsx",
+    "ComboboxChip": "./src/base/combobox.tsx",
+    "ComboboxChipsInput": "./src/base/combobox.tsx",
+    "ComboboxTrigger": "./src/base/combobox.tsx",
+    "ComboboxValue": "./src/base/combobox.tsx",
+    "ContextMenu": "./src/base/context-menu.tsx",
+    "ContextMenuTrigger": "./src/base/context-menu.tsx",
+    "ContextMenuContent": "./src/base/context-menu.tsx",
+    "ContextMenuItem": "./src/base/context-menu.tsx",
+    "ContextMenuCheckboxItem": "./src/base/context-menu.tsx",
+    "ContextMenuRadioItem": "./src/base/context-menu.tsx",
+    "ContextMenuLabel": "./src/base/context-menu.tsx",
+    "ContextMenuSeparator": "./src/base/context-menu.tsx",
+    "ContextMenuShortcut": "./src/base/context-menu.tsx",
+    "ContextMenuGroup": "./src/base/context-menu.tsx",
+    "ContextMenuPortal": "./src/base/context-menu.tsx",
+    "ContextMenuSub": "./src/base/context-menu.tsx",
+    "ContextMenuSubContent": "./src/base/context-menu.tsx",
+    "ContextMenuSubTrigger": "./src/base/context-menu.tsx",
+    "ContextMenuRadioGroup": "./src/base/context-menu.tsx",
+    "Dialog": "./src/base/dialog.tsx",
+    "DialogClose": "./src/base/dialog.tsx",
+    "DialogContent": "./src/base/dialog.tsx",
+    "DialogDescription": "./src/base/dialog.tsx",
+    "DialogFooter": "./src/base/dialog.tsx",
+    "DialogHeader": "./src/base/dialog.tsx",
+    "DialogOverlay": "./src/base/dialog.tsx",
+    "DialogPortal": "./src/base/dialog.tsx",
+    "DialogTitle": "./src/base/dialog.tsx",
+    "DialogTrigger": "./src/base/dialog.tsx",
+    "DirectionProvider": null,
+    "Drawer": "./src/base/drawer.tsx",
+    "DrawerTrigger": "./src/base/drawer.tsx",
+    "DrawerClose": "./src/base/drawer.tsx",
+    "DrawerContent": "./src/base/drawer.tsx",
+    "DrawerHeader": "./src/base/drawer.tsx",
+    "DrawerFooter": "./src/base/drawer.tsx",
+    "DrawerTitle": "./src/base/drawer.tsx",
+    "DrawerDescription": "./src/base/drawer.tsx",
+    "DropdownMenu": "./src/base/dropdown-menu.tsx",
+    "DropdownMenuPortal": "./src/base/dropdown-menu.tsx",
+    "DropdownMenuTrigger": "./src/base/dropdown-menu.tsx",
+    "DropdownMenuContent": "./src/base/dropdown-menu.tsx",
+    "DropdownMenuGroup": "./src/base/dropdown-menu.tsx",
+    "DropdownMenuLabel": "./src/base/dropdown-menu.tsx",
+    "DropdownMenuItem": "./src/base/dropdown-menu.tsx",
+    "DropdownMenuCheckboxItem": "./src/base/dropdown-menu.tsx",
+    "DropdownMenuRadioGroup": "./src/base/dropdown-menu.tsx",
+    "DropdownMenuRadioItem": "./src/base/dropdown-menu.tsx",
+    "DropdownMenuSeparator": "./src/base/dropdown-menu.tsx",
+    "DropdownMenuShortcut": "./src/base/dropdown-menu.tsx",
+    "DropdownMenuSub": "./src/base/dropdown-menu.tsx",
+    "DropdownMenuSubTrigger": "./src/base/dropdown-menu.tsx",
+    "DropdownMenuSubContent": "./src/base/dropdown-menu.tsx",
+    "HoverCard": "./src/base/hover-card.tsx",
+    "HoverCardTrigger": "./src/base/hover-card.tsx",
+    "HoverCardContent": "./src/base/hover-card.tsx",
+    "Input": "./src/base/input.tsx",
+    "InputGroup": "./src/base/input-group.tsx",
+    "InputGroupAddon": "./src/base/input-group.tsx",
+    "InputGroupButton": "./src/base/input-group.tsx",
+    "InputGroupInput": "./src/base/input-group.tsx",
+    "Item": "./src/base/item.tsx",
+    "ItemMedia": "./src/base/item.tsx",
+    "ItemContent": "./src/base/item.tsx",
+    "ItemActions": "./src/base/item.tsx",
+    "ItemGroup": "./src/base/item.tsx",
+    "ItemSeparator": "./src/base/item.tsx",
+    "ItemTitle": "./src/base/item.tsx",
+    "ItemDescription": "./src/base/item.tsx",
+    "ItemHeader": "./src/base/item.tsx",
+    "ItemFooter": "./src/base/item.tsx",
+    "Menubar": "./src/base/menubar.tsx",
+    "MenubarPortal": "./src/base/menubar.tsx",
+    "MenubarMenu": "./src/base/menubar.tsx",
+    "MenubarTrigger": "./src/base/menubar.tsx",
+    "MenubarContent": "./src/base/menubar.tsx",
+    "MenubarGroup": "./src/base/menubar.tsx",
+    "MenubarSeparator": "./src/base/menubar.tsx",
+    "MenubarLabel": "./src/base/menubar.tsx",
+    "MenubarItem": "./src/base/menubar.tsx",
+    "MenubarShortcut": "./src/base/menubar.tsx",
+    "MenubarCheckboxItem": "./src/base/menubar.tsx",
+    "MenubarRadioGroup": "./src/base/menubar.tsx",
+    "MenubarRadioItem": "./src/base/menubar.tsx",
+    "MenubarSub": "./src/base/menubar.tsx",
+    "MenubarSubTrigger": "./src/base/menubar.tsx",
+    "MenubarSubContent": "./src/base/menubar.tsx",
+    "NavigationMenu": "./src/base/navigation-menu.tsx",
+    "NavigationMenuContent": "./src/base/navigation-menu.tsx",
+    "NavigationMenuIndicator": "./src/base/navigation-menu.tsx",
+    "NavigationMenuItem": "./src/base/navigation-menu.tsx",
+    "NavigationMenuLink": "./src/base/navigation-menu.tsx",
+    "NavigationMenuList": "./src/base/navigation-menu.tsx",
+    "NavigationMenuTrigger": "./src/base/navigation-menu.tsx",
+    "NavigationMenuPositioner": "./src/base/navigation-menu.tsx",
+    "Popover": "./src/base/popover.tsx",
+    "PopoverContent": "./src/base/popover.tsx",
+    "PopoverDescription": "./src/base/popover.tsx",
+    "PopoverHeader": "./src/base/popover.tsx",
+    "PopoverTitle": "./src/base/popover.tsx",
+    "PopoverTrigger": "./src/base/popover.tsx",
+    "Progress": "./src/base/progress.tsx",
+    "ProgressTrack": "./src/base/progress.tsx",
+    "ProgressIndicator": "./src/base/progress.tsx",
+    "ProgressLabel": "./src/base/progress.tsx",
+    "ProgressValue": "./src/base/progress.tsx",
+    "RadioGroup": "./src/base/radio-group.tsx",
+    "RadioGroupItem": "./src/base/radio-group.tsx",
+    "ScrollArea": "./src/base/scroll-area.tsx",
+    "ScrollBar": "./src/base/scroll-area.tsx",
+    "Select": "./src/base/select.tsx",
+    "SelectContent": "./src/base/select.tsx",
+    "SelectGroup": "./src/base/select.tsx",
+    "SelectItem": "./src/base/select.tsx",
+    "SelectLabel": "./src/base/select.tsx",
+    "SelectScrollDownButton": "./src/base/select.tsx",
+    "SelectScrollUpButton": "./src/base/select.tsx",
+    "SelectSeparator": "./src/base/select.tsx",
+    "SelectTrigger": "./src/base/select.tsx",
+    "SelectValue": "./src/base/select.tsx",
+    "Separator": "./src/base/separator.tsx",
+    "Sheet": "./src/base/sheet.tsx",
+    "SheetTrigger": "./src/base/sheet.tsx",
+    "SheetClose": "./src/base/sheet.tsx",
+    "SheetContent": "./src/base/sheet.tsx",
+    "SheetHeader": "./src/base/sheet.tsx",
+    "SheetFooter": "./src/base/sheet.tsx",
+    "SheetTitle": "./src/base/sheet.tsx",
+    "SheetDescription": "./src/base/sheet.tsx",
+    "Sidebar": "./src/base/sidebar.tsx",
+    "SidebarContent": "./src/base/sidebar.tsx",
+    "SidebarFooter": "./src/base/sidebar.tsx",
+    "SidebarGroup": "./src/base/sidebar.tsx",
+    "SidebarGroupAction": "./src/base/sidebar.tsx",
+    "SidebarGroupContent": "./src/base/sidebar.tsx",
+    "SidebarGroupLabel": "./src/base/sidebar.tsx",
+    "SidebarHeader": "./src/base/sidebar.tsx",
+    "SidebarInput": "./src/base/sidebar.tsx",
+    "SidebarInset": "./src/base/sidebar.tsx",
+    "SidebarMenu": "./src/base/sidebar.tsx",
+    "SidebarMenuAction": "./src/base/sidebar.tsx",
+    "SidebarMenuBadge": "./src/base/sidebar.tsx",
+    "SidebarMenuButton": "./src/base/sidebar.tsx",
+    "SidebarMenuItem": "./src/base/sidebar.tsx",
+    "SidebarMenuSkeleton": "./src/base/sidebar.tsx",
+    "SidebarMenuSub": "./src/base/sidebar.tsx",
+    "SidebarMenuSubButton": "./src/base/sidebar.tsx",
+    "SidebarMenuSubItem": "./src/base/sidebar.tsx",
+    "SidebarProvider": "./src/base/sidebar.tsx",
+    "SidebarRail": "./src/base/sidebar.tsx",
+    "SidebarSeparator": "./src/base/sidebar.tsx",
+    "SidebarTrigger": "./src/base/sidebar.tsx",
+    "Slider": "./src/base/slider.tsx",
+    "Switch": "./src/base/switch.tsx",
+    "Tabs": "./src/base/tabs.tsx",
+    "TabsList": "./src/base/tabs.tsx",
+    "TabsTrigger": "./src/base/tabs.tsx",
+    "TabsContent": "./src/base/tabs.tsx",
+    "ToggleGroup": "./src/base/toggle-group.tsx",
+    "ToggleGroupItem": "./src/base/toggle-group.tsx",
+    "Toggle": "./src/base/toggle.tsx",
+    "Tooltip": "./src/base/tooltip.tsx",
+    "TooltipTrigger": "./src/base/tooltip.tsx",
+    "TooltipContent": "./src/base/tooltip.tsx",
+    "TooltipProvider": "./src/base/tooltip.tsx",
+    "Card": "./src/ui/card.tsx",
+    "CardHeader": "./src/ui/card.tsx",
+    "CardFooter": "./src/ui/card.tsx",
+    "CardTitle": "./src/ui/card.tsx",
+    "CardAction": "./src/ui/card.tsx",
+    "CardDescription": "./src/ui/card.tsx",
+    "CardContent": "./src/ui/card.tsx",
+    "ChartContainer": "./src/ui/charts.tsx",
+    "ChartTooltip": "./src/ui/charts.tsx",
+    "ChartTooltipContent": "./src/ui/charts.tsx",
+    "ChartLegend": "./src/ui/charts.tsx",
+    "ChartLegendContent": "./src/ui/charts.tsx",
+    "ChartStyle": "./src/ui/charts.tsx",
+    "Command": "./src/ui/command.tsx",
+    "CommandDialog": "./src/ui/command.tsx",
+    "CommandInput": "./src/ui/command.tsx",
+    "CommandList": "./src/ui/command.tsx",
+    "CommandEmpty": "./src/ui/command.tsx",
+    "CommandGroup": "./src/ui/command.tsx",
+    "CommandItem": "./src/ui/command.tsx",
+    "CommandShortcut": "./src/ui/command.tsx",
+    "CommandSeparator": "./src/ui/command.tsx",
+    "AspectRatio": "./src/ui/aspect-ratio.tsx",
+    "Skeleton": "./src/ui/skeleton.tsx",
+    "TeamIntegration": "./../blocks/src/hero-section/team-intergration.tsx",
+    "HeroSocialApp": "./../blocks/src/hero-section/hero-social-app.tsx",
+    "HeroDigitalSuccess": null,
+    "HeroAiEcommerce": "./../blocks/src/hero-section/hero-ai-ecommerce.tsx",
+    "HeroAiInfrastructure": null,
+    "HeroFinancial": "./../blocks/src/hero-section/hero-financial.tsx",
+    "HeroShareApp": "./../blocks/src/hero-section/hero-share-app.tsx",
+    "HeroAiValueProposition": "./../blocks/src/hero-section/hero-ai-value-proposition.tsx",
+    "FaqFounder": "./../blocks/src/faq-section/faq-founder.tsx",
+    "FaqGlassCard": "./../blocks/src/faq-section/faq-glass-card.tsx",
+    "FaqInteractivePreview": "./../blocks/src/faq-section/faq-interactive-preview.tsx",
+    "FaqJourney": "./../blocks/src/faq-section/faq-journey.tsx",
+    "FaqMinimalist": "./../blocks/src/faq-section/faq-minimilastic.tsx",
+    "FaqTabbedExplorer": "./../blocks/src/faq-section/faq-tabbed-explorer.tsx",
+    "AboutMission": "./../blocks/src/about-section/about-mission.tsx",
+    "AboutAgency": "./../blocks/src/about-section/about-agency.tsx",
+    "AboutCreative": "./../blocks/src/about-section/about-creative.tsx",
+    "AboutArchitecture": "./../blocks/src/about-section/about-architecture.tsx",
+    "AboutBusiness": "./../blocks/src/about-section/about-business.tsx",
+    "AboutECommerce": "./../blocks/src/about-section/about-ecommerse.tsx",
+    "AboutSass": "./../blocks/src/about-section/about-sass.tsx",
+    "AboutVision": "./../blocks/src/about-section/about-vision.tsx",
+    "AboutExperience": "./../blocks/src/about-section/about-experience.tsx",
+    "AboutMe": "./../blocks/src/about-section/about-me.tsx",
+    "AboutBento": "./../blocks/src/about-section/about-bento.tsx",
+    "AboutWhyUs": "./../blocks/src/about-section/about-whyus.tsx",
+    "TeamClassic": "./../blocks/src/team-section/team-classic.tsx",
+    "TeamClipPath": "./../blocks/src/team-section/team-clippath.tsx",
+    "TeamExpert": "./../blocks/src/team-section/team-expert.tsx",
+    "TeamMagic": "./../blocks/src/team-section/team-magic.tsx",
+    "TeamModern": "./../blocks/src/team-section/team-modern.tsx",
+    "TeamSocial": "./../blocks/src/team-section/team-social.tsx",
+    "TeamSynth": "./../blocks/src/team-section/team-synth.tsx",
+    "TeamTroops": "./../blocks/src/team-section/team-troops.tsx",
+    "TeamVR": "./../blocks/src/team-section/team-vr.tsx",
+    "GrowthPlans": "./../blocks/src/pricing-section/growth-plans.tsx",
+    "PricingOverview": "./../blocks/src/pricing-section/pricing-overview.tsx",
+    "ProductPacks": "./../blocks/src/pricing-section/product-packs.tsx",
+    "StartupPlans": "./../blocks/src/pricing-section/startup-plans.tsx",
+    "GrowthBusiness": "./../blocks/src/pricing-section/grow-business.tsx",
+    "SubscriptionDetails": "./../blocks/src/pricing-section/subscription-details.tsx",
+    "StatsSection": "./../blocks/src/stats-section/stats-section.tsx",
+    "DetailedStats": "./../blocks/src/stats-section/stats-details.tsx",
+    "BoldStats": "./../blocks/src/stats-section/stats-bold.tsx",
+    "StatsBento": "./../blocks/src/stats-section/stats-bento.tsx",
+    "MinimalStats": "./../blocks/src/stats-section/stats-minimal.tsx",
+    "AdvancedStats": "./../blocks/src/stats-section/advanced-stats/index.tsx",
+    "StatsBanner": "./../blocks/src/stats-section/stats-banner.tsx",
+    "StackTestimonials": "./../blocks/src/testimonial-section/stack-testimonial.tsx",
+    "MarqueeTestimonials": "./../blocks/src/testimonial-section/marque-testimonial.tsx",
+    "MessengerTestimonials": "./../blocks/src/testimonial-section/messenger-testimonial.tsx",
+    "SpotlightTestimonial": "./../blocks/src/testimonial-section/spotlight-testimonial.tsx",
+    "ChatTestimonials": "./../blocks/src/testimonial-section/chat-interface.tsx",
+    "TestimonialBasic": "./../blocks/src/testimonial-section/testimonial-basic.tsx",
+    "TestimonialCarousel": "./../blocks/src/testimonial-section/testimonial-carousel.tsx",
+    "CreativeExperience": "./../blocks/src/experience-section/creative-experience.tsx",
+    "CustomerExperience": "./../blocks/src/experience-section/customer-experience.tsx",
+    "ImpactExperience": "./../blocks/src/experience-section/impact-experience.tsx",
+    "PortfolioExperience": "./../blocks/src/experience-section/portfolio-experience.tsx",
+    "WorkExperience": "./../blocks/src/experience-section/work-experience.tsx",
+    "FeatureHero": "./../blocks/src/feature-section/feature-hero.tsx",
+    "FeaturePlatform": "./../blocks/src/feature-section/feature-platform.tsx",
+    "FeatureServices": "./../blocks/src/feature-section/feature-service.tsx",
+    "FeatureHighlights": "./../blocks/src/feature-section/feature-highlights.tsx",
+    "FeatureFlow": "./../blocks/src/feature-section/feature-flow.tsx",
+    "FeatureVelocity": "./../blocks/src/feature-section/feature-velocity.tsx",
+    "FeatureNature": "./../blocks/src/feature-section/feature-nature.tsx",
+    "FeatureBento": "./../blocks/src/feature-section/feature-bento.tsx",
+    "EntrepreneursBlogs": "./../blocks/src/blog-section/entrepreneurs-blogs.tsx",
+    "FooterSimple": "./../blocks/src/footer-section/footer-simple.tsx",
+    "FooterPrivilege": "./../blocks/src/footer-section/footer-privilege.tsx",
+    "BentoFooter": "./../blocks/src/footer-section/footer-bento.tsx",
+    "BoldFooter": "./../blocks/src/footer-section/footer-bold.tsx",
+    "DetailedFooter": "./../blocks/src/footer-section/footer-detailed.tsx",
+    "MinimalFooter": "./../blocks/src/footer-section/footer-minimal.tsx",
+    "HeroFooter": "./../blocks/src/footer-section/hero-footer.tsx",
+    "Banner": "./../ui/src/banner.tsx",
+    "Github": "./../ui/src/brand-icons.tsx",
+    "Twitter": "./../ui/src/brand-icons.tsx",
+    "Linkedin": "./../ui/src/brand-icons.tsx",
+    "Dribbble": "./../ui/src/brand-icons.tsx",
+    "Codesandbox": "./../ui/src/brand-icons.tsx",
+    "LinkedinIcon": "./../ui/src/brand-icons.tsx",
+    "TwitterIcon": "./../ui/src/brand-icons.tsx",
+    "TreeProvider": "./../ui/src/tree.tsx",
+    "TreeView": "./../ui/src/tree.tsx",
+    "TreeNode": "./../ui/src/tree.tsx",
+    "TreeNodeTrigger": "./../ui/src/tree.tsx",
+    "TreeLines": "./../ui/src/tree.tsx",
+    "TreeNodeContent": "./../ui/src/tree.tsx",
+    "TreeExpander": "./../ui/src/tree.tsx",
+    "TreeIcon": "./../ui/src/tree.tsx",
+    "TreeLabel": "./../ui/src/tree.tsx"
+  },
+  "overrides": {
+    "Sidebar": {
+      "cardMode": "single",
+      "primaryStory": "Default"
+    },
+    "TeamIntegration": {
+      "cardMode": "column"
+    },
+    "HeroSocialApp": {
+      "cardMode": "column"
+    },
+    "HeroAiEcommerce": {
+      "cardMode": "column"
+    },
+    "HeroFinancial": {
+      "cardMode": "column"
+    },
+    "HeroShareApp": {
+      "cardMode": "column"
+    },
+    "HeroAiValueProposition": {
+      "cardMode": "column"
+    },
+    "FaqCard": {
+      "cardMode": "column"
+    },
+    "FaqFounder": {
+      "cardMode": "column"
+    },
+    "FaqGlassCard": {
+      "cardMode": "column"
+    },
+    "FaqInteractivePreview": {
+      "cardMode": "column"
+    },
+    "FaqJourney": {
+      "cardMode": "column"
+    },
+    "FaqMinimalist": {
+      "cardMode": "column"
+    },
+    "FaqTabbedExplorer": {
+      "cardMode": "column"
+    },
+    "AboutMission": {
+      "cardMode": "column"
+    },
+    "AboutAgency": {
+      "cardMode": "column"
+    },
+    "AboutCreative": {
+      "cardMode": "column"
+    },
+    "AboutArchitecture": {
+      "cardMode": "column"
+    },
+    "AboutBusiness": {
+      "cardMode": "column"
+    },
+    "AboutECommerce": {
+      "cardMode": "column"
+    },
+    "AboutSass": {
+      "cardMode": "column"
+    },
+    "AboutVision": {
+      "cardMode": "column"
+    },
+    "AboutExperience": {
+      "cardMode": "column"
+    },
+    "AboutMe": {
+      "cardMode": "column"
+    },
+    "AboutBento": {
+      "cardMode": "column"
+    },
+    "AboutWhyUs": {
+      "cardMode": "column"
+    },
+    "TeamClassic": {
+      "cardMode": "column"
+    },
+    "TeamClipPath": {
+      "cardMode": "column"
+    },
+    "TeamExpert": {
+      "cardMode": "column"
+    },
+    "TeamMagic": {
+      "cardMode": "column"
+    },
+    "TeamModern": {
+      "cardMode": "column"
+    },
+    "TeamSocial": {
+      "cardMode": "column"
+    },
+    "TeamSynth": {
+      "cardMode": "column"
+    },
+    "TeamTroops": {
+      "cardMode": "column"
+    },
+    "TeamVR": {
+      "cardMode": "column"
+    },
+    "GrowthPlans": {
+      "cardMode": "column"
+    },
+    "PricingOverview": {
+      "cardMode": "column"
+    },
+    "ProductPacks": {
+      "cardMode": "column"
+    },
+    "StartupPlans": {
+      "cardMode": "column"
+    },
+    "GrowthBusiness": {
+      "cardMode": "column"
+    },
+    "SubscriptionDetails": {
+      "cardMode": "column"
+    },
+    "StatsSection": {
+      "cardMode": "column"
+    },
+    "DetailedStats": {
+      "cardMode": "column"
+    },
+    "BoldStats": {
+      "cardMode": "column"
+    },
+    "StatsBento": {
+      "cardMode": "column"
+    },
+    "MinimalStats": {
+      "cardMode": "column"
+    },
+    "AdvancedStats": {
+      "cardMode": "column"
+    },
+    "StatsBanner": {
+      "cardMode": "column"
+    },
+    "StackTestimonials": {
+      "cardMode": "column"
+    },
+    "MarqueeTestimonials": {
+      "cardMode": "column"
+    },
+    "MessengerTestimonials": {
+      "cardMode": "column"
+    },
+    "SpotlightTestimonial": {
+      "cardMode": "column"
+    },
+    "ChatTestimonials": {
+      "cardMode": "column"
+    },
+    "TestimonialBasic": {
+      "cardMode": "column"
+    },
+    "TestimonialCarousel": {
+      "cardMode": "column"
+    },
+    "CreativeExperience": {
+      "cardMode": "column"
+    },
+    "CustomerExperience": {
+      "cardMode": "column"
+    },
+    "ImpactExperience": {
+      "cardMode": "column"
+    },
+    "PortfolioExperience": {
+      "cardMode": "column"
+    },
+    "WorkExperience": {
+      "cardMode": "column"
+    },
+    "FeatureHero": {
+      "cardMode": "column"
+    },
+    "FeaturePlatform": {
+      "cardMode": "column"
+    },
+    "FeatureServices": {
+      "cardMode": "column"
+    },
+    "FeatureHighlights": {
+      "cardMode": "column"
+    },
+    "FeatureFlow": {
+      "cardMode": "column"
+    },
+    "FeatureVelocity": {
+      "cardMode": "column"
+    },
+    "FeatureNature": {
+      "cardMode": "column"
+    },
+    "FeatureBento": {
+      "cardMode": "column"
+    },
+    "EntrepreneursBlogs": {
+      "cardMode": "column"
+    },
+    "FooterSimple": {
+      "cardMode": "column"
+    },
+    "FooterPrivilege": {
+      "cardMode": "column"
+    },
+    "BentoFooter": {
+      "cardMode": "column"
+    },
+    "BoldFooter": {
+      "cardMode": "column"
+    },
+    "DetailedFooter": {
+      "cardMode": "column"
+    },
+    "MinimalFooter": {
+      "cardMode": "column"
+    },
+    "HeroFooter": {
+      "cardMode": "column"
+    },
+    "Dialog": {
+      "cardMode": "single",
+      "viewport": "480x420"
+    },
+    "AlertDialog": {
+      "cardMode": "single",
+      "viewport": "480x360"
+    },
+    "Drawer": {
+      "cardMode": "single",
+      "viewport": "500x420"
+    },
+    "DropdownMenu": {
+      "cardMode": "single",
+      "viewport": "360x420"
+    },
+    "Sheet": {
+      "cardMode": "single",
+      "viewport": "500x420"
+    },
+    "Popover": {
+      "cardMode": "single",
+      "viewport": "420x320"
+    },
+    "HoverCard": {
+      "cardMode": "single",
+      "viewport": "420x280"
+    },
+    "ContextMenu": {
+      "cardMode": "single",
+      "viewport": "360x420"
+    },
+    "Tooltip": {
+      "cardMode": "single",
+      "viewport": "360x220"
+    },
+    "Combobox": {
+      "cardMode": "single",
+      "viewport": "420x420"
+    },
+    "NavigationMenu": {
+      "cardMode": "single",
+      "viewport": "700x420"
+    },
+    "Select": {
+      "cardMode": "single",
+      "viewport": "420x420"
+    }
+  },
+  "provider": {
+    "component": "MotionConfig",
+    "props": {
+      "reducedMotion": "always",
+      "transition": {
+        "duration": 0
+      }
+    }
+  }
+}

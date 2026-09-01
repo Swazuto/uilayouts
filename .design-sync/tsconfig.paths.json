@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["../apps/ui-layout/*"],
+      "@repo/ui": ["../packages/ui/src/index.tsx"],
+      "@repo/blocks": ["../packages/blocks/src/index.ts"],
+      "@repo/shadcn": ["../packages/shadcn/src/index.tsx"],
+      "@repo/blocks/assets/*": ["../packages/blocks/assets/*"]
+    }
+  }
+}
